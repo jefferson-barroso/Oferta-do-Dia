@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cabecalho {
+  background-color: #ffd600;
+  height: 90px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.container-principal {
+  flex: 1;
+  background-color: azure;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: -220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  z-index: 2;
+}
+
+.rodape {
+  background-color: #ffd600;
+  height: 90px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-rodape{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

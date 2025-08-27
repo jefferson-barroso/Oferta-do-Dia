@@ -1,0 +1,16 @@
+
+<header class="cabecalho"></header>
+  <div class="container-principal">
+    <img src="assets/logo_oferta_do_dia.png" alt="Logo oferta do dia" class="logo">
+  </div>
+  <div *ngIf="promocoes.length > 0">
+  <h2>Títulos de Notícias</h2>
+  <ul>
+    <li *ngFor="let promocao of promocoes">
+      {{ promocao }}
+    </li>
+  </ul>
+</div>
+  <footer class="rodape">
+    <p>Desenvolvido por <a href="https://github.com/jefferson-barroso" class="link-rodape">Jefferson Barroso Freitas </a> </p>
+  </footer>
